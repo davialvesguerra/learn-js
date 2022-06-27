@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src = "script.js" ></script>
+    
+    
+</head>
+<body>
+    <div id="produtos" title="quantidade">
+        <h3>Produtos</h3>
+        <ul id="listaProdutos">
+            <li id="prod1">
+                <p id="nomeProd1"> Prod 1</p>
+                <p>Valor: <input type="number" id="valorProd"></p>
+                <p>Quantidade: <input type="number" id="quantidadeProd"></p>
+                <button>Adicionar no carrinho</button>
+            </li>
+
+            <li id="prod2">
+                <p id="nomeProd2"> Prod 2</p>
+                <p>Valor: <input type="number" id="valorProd"></p>
+                <p>Quantidade: <input type="number" id="quantidadeProd"></p>
+                <button>Adicionar no carrinho</button>
+            </li>
+
+            <li id="prod3">
+                <p id="nomeProd3"> Prod 3</p>
+                <p>Valor: <input type="number" id="valorProd"></p>
+                <p>Quantidade: <input type="number" id="quantidadeProd"></p>
+                <button>Adicionar no carrinho</button>
+            </li>
+        </ul>
+        
+    </div>
+
+    <div id="carrinho">
+        <h3>Carrinho</h3>
+        <table id="listaProdutosCarrinho">
+            <tr>
+                <th>Nome</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+                <th></th>
+            </tr>
+        </table>
+
+        <table id="resultadoFinal">
+            <tr>
+                <th>Quantidade Total</th>
+                <th>Valor Final</th>
+            </tr>
+            <tr>
+                <th>0</th>
+                <th>0</th>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>
