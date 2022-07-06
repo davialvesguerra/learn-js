@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script type="module" src = "script.ts" ></script>
+</head>
+<body>
+    <div id="content">
+        <div id="blocoCadastrarMusico">
+            <h2>Cadastrar Músico</h2>
+            <form id="formCadastroMusico">
+                <label for="fnome">Nome:</label><br>
+                <input type="text" id="fnome" name="fnome" class="campoCadastro"><br>
+                <label for="femail">Email:</label><br>
+                <input type="text" id="femail" name="femail" class="campoCadastro"><br>
+                <label for="fgeneroMusical">Gênero Musical:</label><br>
+                <input type="text" id="fgeneroMusical" name="fgeneroMusical"class="campoCadastro"><br>
+                <label for="finstrumentos">Instrumentos:</label><br>
+                <input type="text" id="finstrumentos" name="fintrumentos" class="campoCadastro">
+
+                <button id="botaoCadastrarMusico">Cadastrar</button>
+              </form> 
+
+        </div>
+
+        <div id="blocoBuscaMusicos">
+            <h2>Buscar Músico</h2>
+            <form id="formBuscarMusico">
+                <label for="fnome">Pelo Nome:</label><br>
+                <input type="text" id="buscar_nome" name="fnome" class="campoBuscarMusico"><br>
+
+                <label for="femail">Pelo Email:</label><br>
+                <input type="text" id="buscar_email" name="femail" class="campoBuscarMusico"><br>
+
+                <label for="fgeneroMusical">Pelo Gênero Musical:</label><br>
+                <input type="text" id="buscar_generoMusical" name="fgeneroMusical"class="campoBuscarMusico"><br>
+
+                <label for="fintrumentos">Pelo Instrumentos:</label><br>
+                <input type="text" id="buscar_instrumentos" name="fintrumentos" class="campoBuscarMusico">
+                <button class="botaoBuscarMusico" name="intrumentos">Buscar</button><br>
+              </form> 
+
+        </div>
+
+        <div id="blocolistarMusicos">
+            <h2>Listar Músicos</h2>
+            <table id="listarMusicos">
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Gênero Musical</th>
+                    <th>Instrumento</th>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
